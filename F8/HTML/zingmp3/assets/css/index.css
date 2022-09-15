@@ -1,0 +1,12 @@
+/* Reset CSS */
+*{
+    margin: 0%;
+    padding: 0px;
+}
+#header{
+    background-color: #000;
+    height: 50px;
+}
+#logo{
+    line-height: 50px;
+}

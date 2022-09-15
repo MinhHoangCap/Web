@@ -1,0 +1,54 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear{
+    clear: both;
+}
+#header{
+    background-color: grey;
+    padding: 10px 0;
+    display: block;
+}
+#header #header-left{
+    display: inline-block;
+}
+#header-left .header-btn{
+    padding: 10px 10px;
+    
+    text-decoration: none;
+    font-weight: 200;
+    color: white;
+}
+#header-left .header-btn:hover{
+    
+    background-color: blue;
+    border-radius: 20px;
+    
+    
+}
+#header-right{
+   
+    float: right;
+    padding-right: 10px;
+}
+#header-right #search-input{
+    border-radius:20px 0 0 20px;
+
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+#header-right #search-btn{
+    float: left;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+}
