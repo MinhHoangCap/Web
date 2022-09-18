@@ -1,0 +1,85 @@
+.nav{
+    /* height: 50px; */
+    display: flex;
+    font-size: 26px;
+    justify-content: space-between;
+    position: sticky;
+    background-color: white;
+    top: 0;
+}
+.fa-facebook-f{
+    margin: 5px 10px;
+    padding: 7px 13px;
+    border-radius: 50%;
+    color: white;
+    background-image: linear-gradient(#16a6fc,blue);
+}
+.nav__search{
+    width: 196px;
+    height: 24px;
+    background-color: #f0f2f5;
+    border-radius: 20px;
+    padding: 7px 8px 9px;
+    font-size: 15px;
+}
+.nav__nav-bar{
+    
+    display: flex;
+    
+    
+}
+.nav__nav-bar a{
+    width: 112px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0 5px;
+}
+.nav__nav-bar a:hover{
+border-radius: 15px;
+background-color: rgba(0, 0, 0, 0.1)
+}
+.nav__nav-bar i{
+    
+    font-size: 26px;
+}
+
+.nav__nav-bar--active{
+    color: blue;
+    border-bottom: 3px solid blue;
+}
+
+.nav__messenger-notified{
+    display: flex;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.nav__messenger-notified a{
+width: 40px;
+height: 40px;
+background-color: rgba(0, 0, 0, 0.05);
+border-radius: 50%;
+display: flex;
+text-decoration: none;
+justify-content: center;
+align-items: center;
+margin: 0 5px;
+}
+.nav__messenger-notified img{
+    width: 100%;
+    border-radius: 50%;
+
+}
+
+
+
+/* Content */
+.content{
+    background-color: black;
+    height: 1000px;
+
+}
+
